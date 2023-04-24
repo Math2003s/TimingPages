@@ -46,7 +46,7 @@ h1{
     text-align: left; 
     font-size: 80px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #1460c8;
 }
   
@@ -55,16 +55,19 @@ h2{
     font-size: 20px;
     padding-top: 10px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #7eb9f2;
 }
  
 h3{
+    letter-spacing: 3px;
     font-size: 40px;
     color: #7eb9f2;
 }
   
 p{
+    text-align: justify;
+    letter-spacing: 1px;
     color: #e1e4e4;
     font-size: 30px;
 }
@@ -210,6 +213,7 @@ ul li.item-menu a .icon > i{
 
     p{
         font-size: 25px;
+        
     }
 
     nav.menu-lateral{
@@ -242,6 +246,7 @@ ul li.item-menu a .icon > i{
         }
 
     .footer{
+        color: #1460c8;
 
     }
 }
