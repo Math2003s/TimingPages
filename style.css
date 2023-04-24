@@ -31,8 +31,8 @@ header{
 #fototopo{
     height: 200px;
     width: 200px;
-    margin-top: 120px;
-    margin-left: 5spx;
+    margin-top: 50px;
+    margin-left: 12px;
   }
 
 
@@ -48,6 +48,9 @@ h1{
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #1460c8;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
   
 h2{
@@ -70,11 +73,15 @@ p{
     letter-spacing: 1px;
     color: #e1e4e4;
     font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-img{
+
+/*img{
     text-align: center;
-}
+    margin-top: 15px;
+}*/
 
 
 
@@ -180,9 +187,6 @@ ul li.item-menu a .icon > i{
 /* mobile */
 
 @media(min-width: 320px) and (max-width: 950px){
-    header{
-        text-align: center;
-    }
 
     #fototopo{
         position: relative;
@@ -198,21 +202,35 @@ ul li.item-menu a .icon > i{
         margin-right: 17px;
         margin-top: 30px;
         padding-bottom: 10px;
-        font-size: 60px;
+        font-size: 50px;
         color: rgba(20, 96, 200, 1.0);
         
     }
 
     h2{
-        font-size: 16px;
+        text-align: center;
+        font-size: 13px;
+        padding-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #7eb9f2;
+        
     }
 
     h3{
+        letter-spacing: 3px;
         font-size: 30px;
+        color: #7eb9f2;
     }
 
     p{
-        font-size: 25px;
+        font-size: 20px;
+        text-align: justify;
+        color: #e1e4e4;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        
         
     }
 
@@ -220,7 +238,7 @@ ul li.item-menu a .icon > i{
         width: 80px;
         height: 50%;
         background-color: rgba(47, 52, 57, 1.0);
-        padding: 40px 0 40px 1%; /* 20 */
+        padding: 40px 0 40px 1%; 
         position: relative;
         float: right;
         top: 0;
@@ -246,7 +264,16 @@ ul li.item-menu a .icon > i{
         }
 
     .footer{
-        color: #1460c8;
+        height: 100px;
+        width: 100%;
+        background-color: #1460c8;
+        color: #e1e4e4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        padding-top: 16px;
+        padding-bottom: 10px;
 
     }
 }
